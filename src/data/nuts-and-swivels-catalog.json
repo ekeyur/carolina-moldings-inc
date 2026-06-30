@@ -1,0 +1,940 @@
+{
+  "nutsAndSwivelsCategories": [
+    {
+      "id": "swivels",
+      "name": "Meter Swivels",
+      "blurb": "Straight & offset male/female swivels — insulated or non-insulated."
+    },
+    {
+      "id": "accessories",
+      "name": "Meter Accessories",
+      "blurb": "Nuts, plugs, blinds, washers, caps, vents, unions & brackets."
+    },
+    {
+      "id": "bars",
+      "name": "Meter Bars",
+      "blurb": "Side, top, sleeved & combination meter bars — built to spec."
+    },
+    {
+      "id": "custom",
+      "name": "Custom Assemblies",
+      "blurb": "Prefabricated meter sets, manifolds & direct-pipe assemblies."
+    }
+  ],
+  "finishes": [
+    {
+      "id": "",
+      "name": "Black",
+      "suffix": ""
+    },
+    {
+      "id": "G",
+      "name": "Galvanized",
+      "suffix": "-G"
+    },
+    {
+      "id": "Z",
+      "name": "Zinc Electroplated",
+      "suffix": "-Z"
+    }
+  ],
+  "meterBarConfig": {
+    "types": [
+      {
+        "id": "MBSS",
+        "name": "MBSS — Side inlet / Side outlet",
+        "gasketUnion": true
+      },
+      {
+        "id": "MBST",
+        "name": "MBST — Side inlet / Top outlet",
+        "gasketUnion": true
+      },
+      {
+        "id": "MBSSL",
+        "name": "MBSSL — Side inlet / Sleeved outlet",
+        "gasketUnion": false
+      },
+      {
+        "id": "MBSD",
+        "name": "MBSD — Side inlet / Direct-thread outlet",
+        "gasketUnion": false
+      },
+      {
+        "id": "MBLG",
+        "name": "MBLG — Rear-center inlet / Side outlet",
+        "gasketUnion": false
+      }
+    ],
+    "sizes": ["3/4", "1", "1-1/4"],
+    "lengths": [
+      {
+        "id": "6",
+        "name": "6\""
+      },
+      {
+        "id": "6.5",
+        "name": "6-1/2\""
+      },
+      {
+        "id": "7",
+        "name": "7\""
+      },
+      {
+        "id": "8",
+        "name": "8-1/4\""
+      }
+    ],
+    "gaskets": [
+      {
+        "id": "F",
+        "name": "Flat gasket"
+      },
+      {
+        "id": "O",
+        "name": "O-Ring gasket"
+      }
+    ],
+    "unions": [
+      {
+        "id": "I",
+        "name": "Insulated union"
+      },
+      {
+        "id": "",
+        "name": "Standard union"
+      }
+    ]
+  },
+  "nutsAndSwivelsFamilies": [
+    {
+      "id": "ss-male",
+      "cat": "swivels",
+      "name": "Straight Male Swivel",
+      "ph": "MALE SWIVEL",
+      "blurb": "The workhorse meter connection swivel. Male thread, straight body.",
+      "features": [
+        "Available insulated or non-insulated",
+        "Optional pressure taps — specify size & location",
+        "Black, galvanized or zinc electroplated"
+      ],
+      "variantLabel": "Pilot / thread size",
+      "hasFinish": true,
+      "hasInsulated": true,
+      "variants": [
+        {
+          "base": "SS-5LT-1/2",
+          "name": "5LT × 1/2\"",
+          "specs": "Pilot 5LT · Thread 1/2\" · L 2-7/32\""
+        },
+        {
+          "base": "SS-10LT-3/4",
+          "name": "10LT × 3/4\"",
+          "specs": "Pilot 10LT · Thread 3/4\" · L 2-15/16\""
+        },
+        {
+          "base": "SS-1A-3/4",
+          "name": "1A × 3/4\"",
+          "specs": "Pilot 1A · Thread 3/4\" · L 2-3/8\""
+        },
+        {
+          "base": "SS-1A-01",
+          "name": "1A × 1\"",
+          "specs": "Pilot 1A · Thread 1\" · L 2-13/32\""
+        },
+        {
+          "base": "SS-20LT-3/4",
+          "name": "20LT × 3/4\"",
+          "specs": "Pilot 20LT · Thread 3/4\" · L 2-11/32\""
+        },
+        {
+          "base": "SS-20LT-01",
+          "name": "20LT × 1\"",
+          "specs": "Pilot 20LT · Thread 1\" · L 2-25/32\""
+        },
+        {
+          "base": "SS-30LT-01",
+          "name": "30LT × 1\"",
+          "specs": "Pilot 30LT · Thread 1\" · L 2-27/32\""
+        },
+        {
+          "base": "SS-30LT-1 1/4",
+          "name": "30LT × 1-1/4\"",
+          "specs": "Pilot 30LT · Thread 1-1/4\" · L 2-7/8\""
+        },
+        {
+          "base": "SS-45LT-1 1/4",
+          "name": "45LT × 1-1/4\"",
+          "specs": "Pilot 45LT · Thread 1-1/4\" · L 3-3/4\""
+        },
+        {
+          "base": "SS-45LT-1 1/2",
+          "name": "45LT × 1-1/2\"",
+          "specs": "Pilot 45LT · Thread 1-1/2\" · L 2-15/16\""
+        },
+        {
+          "base": "SS-60LT-1 1/2",
+          "name": "60LT × 1-1/2\"",
+          "specs": "Pilot 60LT · Thread 1-1/2\" · L 3-1/32\""
+        },
+        {
+          "base": "SS-3&4-1 1/2",
+          "name": "SP 3&4 × 1-1/2\"",
+          "specs": "Pilot Sprague 3&4 · Thread 1-1/2\" · L 3-1/16\""
+        },
+        {
+          "base": "SS-100LT-2",
+          "name": "100LT × 2\"",
+          "specs": "Pilot 100LT · Thread 2\" · L 3-13/16\""
+        }
+      ]
+    },
+    {
+      "id": "fs-female",
+      "cat": "swivels",
+      "name": "Straight Female Swivel",
+      "ph": "FEMALE SWIVEL",
+      "blurb": "Female-thread straight swivel for meter connections.",
+      "features": [
+        "Available insulated or non-insulated",
+        "Optional pressure taps",
+        "Black, galvanized or zinc electroplated"
+      ],
+      "variantLabel": "Pilot / thread size",
+      "hasFinish": true,
+      "hasInsulated": true,
+      "variants": [
+        {
+          "base": "FS-1A-3/4",
+          "name": "1A × 3/4\"",
+          "specs": "Pilot 1A · Thread 3/4\""
+        },
+        {
+          "base": "FS-20LT-3/4",
+          "name": "20LT × 3/4\"",
+          "specs": "Pilot 20LT · Thread 3/4\""
+        },
+        {
+          "base": "FS-45LT-1 1/4",
+          "name": "45LT × 1-1/4\"",
+          "specs": "Pilot 45LT · Thread 1-1/4\""
+        }
+      ]
+    },
+    {
+      "id": "os-elbow",
+      "cat": "swivels",
+      "name": "Offset / Elbow Swivel",
+      "ph": "SWIVEL ELBOW",
+      "blurb": "Offset and 90° elbow swivels to clear obstructions and reach the meter.",
+      "features": [
+        "Wide range of pilot, thread & offset combinations",
+        "Insulated options available",
+        "Black, galvanized or zinc electroplated"
+      ],
+      "variantLabel": "Configuration",
+      "hasFinish": true,
+      "hasInsulated": false,
+      "variants": [
+        {
+          "base": "OS-90-3/4-20LT",
+          "name": "20LT · 3/4\" thd · 90° elbow",
+          "specs": "Pilot 20LT · Thread 3/4\" · 90° elbow"
+        },
+        {
+          "base": "OS-90-1-20LT",
+          "name": "20LT · 1\" thd · 90° elbow",
+          "specs": "Pilot 20LT · Thread 1\" · 90° elbow"
+        },
+        {
+          "base": "MEL-1 1/4-30LT",
+          "name": "30LT · 1-1/4\" thd · elbow",
+          "specs": "Pilot 30LT · Thread 1-1/4\" · elbow"
+        },
+        {
+          "base": "OS-1/2-1 1/4-5LT",
+          "name": "5LT · 1/2\" thd · 1-1/4\" offset",
+          "specs": "Pilot 5LT · Thread 1/2\" · Offset 1-1/4\""
+        },
+        {
+          "base": "OS-1/2-3-10LT",
+          "name": "10LT · 1/2\" thd · 3\" offset",
+          "specs": "Pilot 10LT · Thread 1/2\" · Offset 3\""
+        },
+        {
+          "base": "OS-1/2-1 3/4-10LT",
+          "name": "10LT · 1/2\" thd · 1-3/4\" offset",
+          "specs": "Pilot 10LT · Thread 1/2\" · Offset 1-3/4\""
+        },
+        {
+          "base": "OS-3/4-3/8-10LT",
+          "name": "10LT · 3/4\" thd · 3/8\" offset",
+          "specs": "Pilot 10LT · Thread 3/4\" · Offset 3/8\""
+        },
+        {
+          "base": "OS-3/4-1-10LT",
+          "name": "10LT · 3/4\" thd · 1\" offset",
+          "specs": "Pilot 10LT · Thread 3/4\" · Offset 1\""
+        },
+        {
+          "base": "OS-3/4-1 1/4-10LT",
+          "name": "10LT · 3/4\" thd · 1-1/4\" offset",
+          "specs": "Pilot 10LT · Thread 3/4\" · Offset 1-1/4\""
+        },
+        {
+          "base": "OS-3/4-1 3/4-10LT",
+          "name": "10LT · 3/4\" thd · 1-3/4\" offset",
+          "specs": "Pilot 10LT · Thread 3/4\" · Offset 1-3/4\""
+        },
+        {
+          "base": "OS-3/4-4-10LT",
+          "name": "10LT · 3/4\" thd · 3-15/16\" offset",
+          "specs": "Pilot 10LT · Thread 3/4\" · Offset 3-15/16\""
+        },
+        {
+          "base": "OS-1/2-3-1A",
+          "name": "1A · 1/2\" thd · 2-3/4\" offset",
+          "specs": "Pilot 1A · Thread 1/2\" · Offset 2-3/4\""
+        },
+        {
+          "base": "OS-3/4-1-1A",
+          "name": "1A · 3/4\" thd · 1\" offset",
+          "specs": "Pilot 1A · Thread 3/4\" · Offset 1\""
+        },
+        {
+          "base": "OS-3/4-3-1A",
+          "name": "1A · 3/4\" thd · 3\" offset",
+          "specs": "Pilot 1A · Thread 3/4\" · Offset 3\""
+        },
+        {
+          "base": "OS-1-1-1A",
+          "name": "1A · 1\" thd · 1\" offset",
+          "specs": "Pilot 1A · Thread 1\" · Offset 1\""
+        },
+        {
+          "base": "OS-1/2-3-20LT",
+          "name": "20LT · 1/2\" thd · 2-7/8\" offset",
+          "specs": "Pilot 20LT · Thread 1/2\" · Offset 2-7/8\""
+        },
+        {
+          "base": "OS-3/4-1 5/8-20LT",
+          "name": "20LT · 3/4\" thd · 1-5/8\" offset",
+          "specs": "Pilot 20LT · Thread 3/4\" · Offset 1-5/8\""
+        },
+        {
+          "base": "OS-3/4-3-20LT",
+          "name": "20LT · 3/4\" thd · 3\" offset",
+          "specs": "Pilot 20LT · Thread 3/4\" · Offset 3\""
+        },
+        {
+          "base": "OS-1-1-20LT",
+          "name": "20LT · 1\" thd · 1\" offset",
+          "specs": "Pilot 20LT · Thread 1\" · Offset 1\""
+        },
+        {
+          "base": "OS-1-1 1/2-20LT",
+          "name": "20LT · 1\" thd · 1-1/2\" offset",
+          "specs": "Pilot 20LT · Thread 1\" · Offset 1-1/2\""
+        },
+        {
+          "base": "OS-3/4-3-30LT",
+          "name": "30LT · 3/4\" thd · 3\" offset",
+          "specs": "Pilot 30LT · Thread 3/4\" · Offset 3\""
+        },
+        {
+          "base": "OS-1-1-30LT",
+          "name": "30LT · 1\" thd · 1\" offset",
+          "specs": "Pilot 30LT · Thread 1\" · Offset 1\""
+        },
+        {
+          "base": "OS-1-1 1/4-30LT",
+          "name": "30LT · 1\" thd · 1-1/4\" offset",
+          "specs": "Pilot 30LT · Thread 1\" · Offset 1-1/4\""
+        },
+        {
+          "base": "OS-1-4 3/8-30LT",
+          "name": "30LT · 1\" thd · 4-3/8\" offset",
+          "specs": "Pilot 30LT · Thread 1\" · Offset 4-3/8\""
+        },
+        {
+          "base": "OS-1 1/4-1-30LT",
+          "name": "30LT · 1-1/4\" thd · 1\" offset",
+          "specs": "Pilot 30LT · Thread 1-1/4\" · Offset 1\""
+        },
+        {
+          "base": "OS-1 1/4-1 5/8-45LT",
+          "name": "45LT · 1-1/4\" thd · 1-5/8\" offset",
+          "specs": "Pilot 45LT · Thread 1-1/4\" · Offset 1-5/8\""
+        },
+        {
+          "base": "OS-1 1/4-2-45LT",
+          "name": "45LT · 1-1/4\" thd · 2\" offset",
+          "specs": "Pilot 45LT · Thread 1-1/4\" · Offset 2\""
+        },
+        {
+          "base": "OS-1 1/4-2 3/4-45LT",
+          "name": "45LT · 1-1/4\" thd · 2-3/4\" offset",
+          "specs": "Pilot 45LT · Thread 1-1/4\" · Offset 2-3/4\""
+        },
+        {
+          "base": "OS-1 1/2-1-45LT",
+          "name": "45LT · 1-1/2\" thd · 1\" offset",
+          "specs": "Pilot 45LT · Thread 1-1/2\" · Offset 1\""
+        },
+        {
+          "base": "OS-1 1/2-2-45LT",
+          "name": "45LT · 1-1/2\" thd · 2\" offset",
+          "specs": "Pilot 45LT · Thread 1-1/2\" · Offset 2\""
+        },
+        {
+          "base": "OS-1 1/2-1-60LT",
+          "name": "60LT · 1-1/2\" thd · 1\" offset",
+          "specs": "Pilot 60LT · Thread 1-1/2\" · Offset 1\""
+        },
+        {
+          "base": "OS-1 1/2-41/2-60LT",
+          "name": "60LT · 1-1/2\" thd · 4-1/2\" offset",
+          "specs": "Pilot 60LT · Thread 1-1/2\" · Offset 4-1/2\""
+        },
+        {
+          "base": "OS-1 1/2-1-3&4",
+          "name": "SP 3&4 · 1-1/2\" thd · 1\" offset",
+          "specs": "Pilot SP 3&4 · Thread 1-1/2\" · Offset 1\""
+        },
+        {
+          "base": "OS-2-1-100LT",
+          "name": "100LT · 2\" thd · 1\" offset",
+          "specs": "Pilot 100LT · Thread 2\" · Offset 1\""
+        }
+      ]
+    },
+    {
+      "id": "nuts",
+      "cat": "accessories",
+      "name": "Meter Connection Nut",
+      "ph": "CONNECTION NUT",
+      "blurb": "Standard meter connection nut, sized to the pilot.",
+      "features": ["Black, galvanized or zinc electroplated"],
+      "variantLabel": "Pilot size",
+      "hasFinish": true,
+      "hasInsulated": false,
+      "variants": [
+        {
+          "base": "N5LT",
+          "name": "5LT",
+          "specs": "Pilot 5LT"
+        },
+        {
+          "base": "N10LT",
+          "name": "10LT",
+          "specs": "Pilot 10LT"
+        },
+        {
+          "base": "N1A",
+          "name": "1A",
+          "specs": "Pilot 1A"
+        },
+        {
+          "base": "NEMCO",
+          "name": "0 EMCO",
+          "specs": "Pilot 0 EMCO"
+        },
+        {
+          "base": "N20LT",
+          "name": "20LT",
+          "specs": "Pilot 20LT"
+        },
+        {
+          "base": "N30LT",
+          "name": "30LT",
+          "specs": "Pilot 30LT"
+        },
+        {
+          "base": "N45LT",
+          "name": "45LT",
+          "specs": "Pilot 45LT"
+        },
+        {
+          "base": "N60LT",
+          "name": "60LT",
+          "specs": "Pilot 60LT"
+        },
+        {
+          "base": "N3&4",
+          "name": "SP 3&4",
+          "specs": "Pilot Sprague 3&4"
+        },
+        {
+          "base": "N100LT",
+          "name": "100LT",
+          "specs": "Pilot 100LT"
+        }
+      ]
+    },
+    {
+      "id": "adaptors",
+      "cat": "accessories",
+      "name": "Meter Connection Adaptor",
+      "ph": "CONNECTION ADAPTOR",
+      "blurb": "Change the size of a meter connection without changing swivels — e.g. turn a 10LT connection into a 20LT.",
+      "features": [
+        "Use existing connections",
+        "No need to repipe existing installations",
+        "Upsize or downsize with minimal effort"
+      ],
+      "configurator": "adaptor",
+      "pilots": [
+        "5LT",
+        "10LT",
+        "1A",
+        "0 EMCO",
+        "20LT",
+        "30LT",
+        "45LT",
+        "60LT",
+        "3&4",
+        "100LT"
+      ]
+    },
+    {
+      "id": "plugs",
+      "cat": "accessories",
+      "name": "Meter Nut Plug",
+      "ph": "NUT PLUG",
+      "blurb": "Plug for sealing an unused meter connection nut. Plastic or metal.",
+      "features": [
+        "Plastic (PP) or metal",
+        "Metal: black, galvanized or zinc electroplated"
+      ],
+      "variantLabel": "Type / pilot size",
+      "hasFinish": false,
+      "hasInsulated": false,
+      "variants": [
+        {
+          "base": "PP-5LT",
+          "name": "Plastic · 5LT",
+          "specs": "Pilot 5LT · Plastic"
+        },
+        {
+          "base": "PP-10LT",
+          "name": "Plastic · 10LT",
+          "specs": "Pilot 10LT · Plastic"
+        },
+        {
+          "base": "PP-1A",
+          "name": "Plastic · 1A",
+          "specs": "Pilot 1A · Plastic"
+        },
+        {
+          "base": "PP-20LT",
+          "name": "Plastic · 20LT",
+          "specs": "Pilot 20LT · Plastic"
+        },
+        {
+          "base": "PP-30LT",
+          "name": "Plastic · 30LT",
+          "specs": "Pilot 30LT · Plastic"
+        },
+        {
+          "base": "PP-45LT",
+          "name": "Plastic · 45LT",
+          "specs": "Pilot 45LT · Plastic"
+        },
+        {
+          "base": "P5LT",
+          "name": "Metal · 5LT",
+          "specs": "Pilot 5LT · Metal",
+          "finish": true
+        },
+        {
+          "base": "P10LT",
+          "name": "Metal · 10LT",
+          "specs": "Pilot 10LT · Metal",
+          "finish": true
+        },
+        {
+          "base": "P1A",
+          "name": "Metal · 1A",
+          "specs": "Pilot 1A · Metal",
+          "finish": true
+        },
+        {
+          "base": "P20LT",
+          "name": "Metal · 20LT",
+          "specs": "Pilot 20LT · Metal",
+          "finish": true
+        },
+        {
+          "base": "P30LT",
+          "name": "Metal · 30LT",
+          "specs": "Pilot 30LT · Metal",
+          "finish": true
+        },
+        {
+          "base": "P45LT",
+          "name": "Metal · 45LT",
+          "specs": "Pilot 45LT · Metal",
+          "finish": true
+        }
+      ]
+    },
+    {
+      "id": "blinds",
+      "cat": "accessories",
+      "name": "Meter Connection Blind",
+      "ph": "CONNECTION BLIND",
+      "blurb": "Blind cap that closes off a meter connection.",
+      "features": ["Sized to the pilot"],
+      "variantLabel": "Pilot size",
+      "hasFinish": false,
+      "hasInsulated": false,
+      "variants": [
+        {
+          "base": "B5LT",
+          "name": "5LT",
+          "specs": "Pilot 5LT"
+        },
+        {
+          "base": "B10LT",
+          "name": "10LT",
+          "specs": "Pilot 10LT"
+        },
+        {
+          "base": "B1A",
+          "name": "1A",
+          "specs": "Pilot 1A"
+        },
+        {
+          "base": "B20LT",
+          "name": "20LT",
+          "specs": "Pilot 20LT"
+        },
+        {
+          "base": "B30LT",
+          "name": "30LT",
+          "specs": "Pilot 30LT"
+        },
+        {
+          "base": "B45LT",
+          "name": "45LT",
+          "specs": "Pilot 45LT"
+        },
+        {
+          "base": "B3&4",
+          "name": "Sprague 3&4",
+          "specs": "Pilot Sprague 3&4"
+        },
+        {
+          "base": "B100LT",
+          "name": "100LT",
+          "specs": "Pilot 100LT"
+        },
+        {
+          "base": "B5A",
+          "name": "Sprague #5",
+          "specs": "Pilot Sprague #5"
+        }
+      ]
+    },
+    {
+      "id": "washers",
+      "cat": "accessories",
+      "name": "Meter Connection Washer",
+      "ph": "CONNECTION WASHER",
+      "blurb": "Sealing washer for meter connections. Two thicknesses.",
+      "features": ["0.100\" or 1/8\" thick", "Sized to the pilot"],
+      "variantLabel": "Pilot size / thickness",
+      "hasFinish": false,
+      "hasInsulated": false,
+      "variants": [
+        {
+          "base": "W5LT",
+          "name": "5LT · 0.100\"",
+          "specs": "3/4\" × 1\" · Pilot 5LT"
+        },
+        {
+          "base": "W10LT",
+          "name": "10LT · 0.100\"",
+          "specs": "31/32\" × 1-5/16\" · Pilot 10LT"
+        },
+        {
+          "base": "W1A",
+          "name": "1A · 0.100\"",
+          "specs": "31/32\" × 1-3/8\" · Pilot 1A"
+        },
+        {
+          "base": "W1A-1/8",
+          "name": "1A · 1/8\"",
+          "specs": "31/32\" × 1-3/8\" · Pilot 1A"
+        },
+        {
+          "base": "W20LT",
+          "name": "20LT · 0.100\"",
+          "specs": "1-9/32\" × 1-21/32\" · Pilot 20LT"
+        },
+        {
+          "base": "W20LT-1/8",
+          "name": "20LT · 1/8\"",
+          "specs": "1-9/32\" × 1-21/32\" · Pilot 20LT"
+        },
+        {
+          "base": "W30LT",
+          "name": "30LT · 0.100\"",
+          "specs": "1-15/32\" × 1-7/8\" · Pilot 30LT"
+        },
+        {
+          "base": "W45LT",
+          "name": "45LT · 0.100\"",
+          "specs": "1-21/32\" × 2-7/32\" · Pilot 45LT"
+        },
+        {
+          "base": "W100LT",
+          "name": "100LT · 0.100\"",
+          "specs": "2-3/16\" × 2-13/16\" · Pilot 100LT"
+        },
+        {
+          "base": "W5A",
+          "name": "Sprague 5A · 0.100\"",
+          "specs": "2-7/32\" × 3-3/16\" · Pilot Sprague 5A"
+        }
+      ]
+    },
+    {
+      "id": "dustcaps",
+      "cat": "accessories",
+      "name": "Dust Cap",
+      "ph": "DUST CAP",
+      "blurb": "Keeps water, insects and debris out of the connection during storage and transit.",
+      "features": ["Sized to the pilot"],
+      "variantLabel": "Pilot size",
+      "hasFinish": false,
+      "hasInsulated": false,
+      "variants": [
+        {
+          "base": "DC-1",
+          "name": "1\"",
+          "specs": "1\""
+        },
+        {
+          "base": "DC-5LT",
+          "name": "5LT",
+          "specs": "Pilot 5LT"
+        },
+        {
+          "base": "DC-10LT",
+          "name": "10LT",
+          "specs": "Pilot 10LT"
+        },
+        {
+          "base": "DC-1A",
+          "name": "1A",
+          "specs": "Pilot 1A"
+        },
+        {
+          "base": "DC-EMCO",
+          "name": "0 EMCO",
+          "specs": "Pilot 0 EMCO"
+        },
+        {
+          "base": "DC-20LT",
+          "name": "20LT",
+          "specs": "Pilot 20LT"
+        },
+        {
+          "base": "DC-30LT",
+          "name": "30LT",
+          "specs": "Pilot 30LT"
+        },
+        {
+          "base": "DC-45LT",
+          "name": "45LT",
+          "specs": "Pilot 45LT"
+        },
+        {
+          "base": "DC-100LT",
+          "name": "100LT",
+          "specs": "Pilot 100LT"
+        },
+        {
+          "base": "DC-3&4",
+          "name": "3&4",
+          "specs": "Pilot 3&4"
+        },
+        {
+          "base": "DC-5A",
+          "name": "5A",
+          "specs": "Pilot 5A"
+        }
+      ]
+    },
+    {
+      "id": "vents",
+      "cat": "accessories",
+      "name": "Gas Relief Vent",
+      "ph": "RELIEF VENT",
+      "blurb": "Non-corrosive aluminum vent screen for relief piping. Screen blows out if blocked.",
+      "features": [
+        "Non-corrosive aluminum",
+        "16\" × 16\", 0.018 gauge screen",
+        "For all relief piping"
+      ],
+      "variantLabel": "Pipe size",
+      "hasFinish": false,
+      "hasInsulated": false,
+      "variants": [
+        {
+          "base": "GV-1",
+          "name": "1\"",
+          "specs": "Pipe 1\""
+        },
+        {
+          "base": "GV-1 1/4",
+          "name": "1-1/4\"",
+          "specs": "Pipe 1-1/4\""
+        },
+        {
+          "base": "GV-1 1/2",
+          "name": "1-1/2\"",
+          "specs": "Pipe 1-1/2\""
+        },
+        {
+          "base": "GV-2",
+          "name": "2\"",
+          "specs": "Pipe 2\""
+        }
+      ]
+    },
+    {
+      "id": "unions",
+      "cat": "accessories",
+      "name": "O-Ring Insulating Union",
+      "ph": "INSULATING UNION",
+      "blurb": "Reusable insulating union — protects against stray/induced currents. Light torque makes a gas-tight seal.",
+      "features": [
+        "150–175 lb working pressure",
+        "Confined O-Ring seal, reusable",
+        "Malleable iron nut & body, nylon insulation"
+      ],
+      "variantLabel": "Pipe size",
+      "hasFinish": true,
+      "hasInsulated": false,
+      "finishSet": "bg",
+      "variants": [
+        {
+          "base": "IU-1/2",
+          "name": "1/2\"",
+          "specs": "Pipe 1/2\""
+        },
+        {
+          "base": "IU-3/4",
+          "name": "3/4\"",
+          "specs": "Pipe 3/4\""
+        },
+        {
+          "base": "IU-1",
+          "name": "1\"",
+          "specs": "Pipe 1\""
+        },
+        {
+          "base": "IU-3/4X1",
+          "name": "3/4\" × 1\"",
+          "specs": "Pipe 3/4\" × 1\""
+        },
+        {
+          "base": "IU-1 1/4",
+          "name": "1-1/4\"",
+          "specs": "Pipe 1-1/4\""
+        },
+        {
+          "base": "IU-2",
+          "name": "2\"",
+          "specs": "Pipe 2\""
+        }
+      ]
+    },
+    {
+      "id": "brackets",
+      "cat": "accessories",
+      "name": "Meter Set Support Bracket",
+      "ph": "SUPPORT BRACKET",
+      "blurb": "Supports meters and associated piping — prevents settlement, leaks and costly call-backs.",
+      "features": [
+        "Riser, bar or wall mount",
+        "Optional U-bolt & mounting hardware",
+        "Black, galvanized or zinc electroplated"
+      ],
+      "variantLabel": "Style",
+      "hasFinish": true,
+      "hasInsulated": false,
+      "variants": [
+        {
+          "base": "BR-F",
+          "name": "Style A — Flat tabs (riser/bar mount)",
+          "specs": "H 5-3/4\" · L 7-1/2\" · W 2-1/4\""
+        },
+        {
+          "base": "BR-U",
+          "name": "Style B — Tabs up (bar mount)",
+          "specs": "H 5-3/4\" · L 7-1/2\" · W 2-1/4\""
+        },
+        {
+          "base": "BR-A",
+          "name": "Style C — Adjustable",
+          "specs": "H 7-1/2\"–14\" · L 9\"–14\" · W 2-1/4\""
+        }
+      ]
+    },
+    {
+      "id": "meterbar",
+      "cat": "bars",
+      "name": "Meter Bar — Build to Spec",
+      "ph": "METER BAR",
+      "blurb": "Configure a meter bar by inlet/outlet, swivel size, gasket, union and finish — the part number builds itself.",
+      "features": [
+        "Side, top, sleeved, direct & rear-center styles",
+        "Optional pressure taps — specify size & location",
+        "Black, galvanized or zinc electroplated"
+      ],
+      "configurator": "meterbar"
+    },
+    {
+      "id": "meterbarguide",
+      "cat": "bars",
+      "name": "Meter Bar — Order by Guide",
+      "ph": "METER BAR",
+      "blurb": "Prefer the catalog order form? Specify your meter bar by location, thread, outlet style and finish and we’ll quote it.",
+      "features": [
+        "Side, top or rear inlet & outlet",
+        "Insulated-union or threaded outlet",
+        "Optional pressure taps"
+      ],
+      "formId": "meterbarguide"
+    },
+    {
+      "id": "directpipe",
+      "cat": "custom",
+      "name": "Direct Pipe Meter Set Assembly",
+      "ph": "DIRECT-PIPE ASSEMBLY",
+      "blurb": "All-steel, lightweight meter hook-up that eliminates nearly all threaded connections. Any inlet/outlet configuration.",
+      "features": [
+        "90° or 180° bends / loops",
+        "Unrestricted flow, factory coated",
+        "Built to your specifications"
+      ],
+      "formId": "bend"
+    },
+    {
+      "id": "metersets",
+      "cat": "custom",
+      "name": "Meter Sets & Manifolds",
+      "ph": "METER SET / MANIFOLD",
+      "blurb": "Prefabricated, pressure-tested meter sets and manifolds built to your utility’s specs using approved components.",
+      "features": [
+        "Pressure tested & factory painted",
+        "Fast, uniform, error-free installs",
+        "Built to your specifications"
+      ],
+      "formId": "manifold"
+    }
+  ]
+}
