@@ -14,7 +14,7 @@ export function Footer() {
                 alt="Carolina Moldings, Inc."
                 width={40}
                 height={40}
-                className="h-10 w-auto"
+                style={{ height: "2.5rem", width: "auto" }}
               />
               <div className="leading-tight">
                 <div className="font-heading font-bold text-white text-base leading-none">
